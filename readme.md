@@ -5,22 +5,22 @@
 * it comes with an interactive and responsive GUI which is at address **/assist**
 * it only listens to the commands, it is intended to, rest other commands are filtered out with visual feedbacks
 * if it detects silence, ie if your are not speaking anything after launching it, it will stop recognising automatically after few seconds
-* it listens to single commands as well as burst of commands (containing single trigger). Eg. will *zoom in 1x* for **plus** & will *zoom in 3x* for **plus plus plus**
+* it listens to single commands as well as burst of commands (containing single trigger). Eg. will *zoom in *1x* for **plus** & will *zoom in 3x* for **plus plus plus**
 * to stop it, you can say ```terminate```
 
 ## requirements
-* pip3 install pyautogui - for emulating keystrokes
-* pip3 install flask - for web server, to receive and process the commands
+* **pip3 install pyautogui** - for emulating keystrokes
+* **pip3 install flask** - for web server, to receive and process the commands
 
 ## run
 * **python server.py** and go to **localhost:5000/assist**
 * click on the mouse button and speak some of the following pre-implemented actions (with adobe illustrator in focus):
-    * plus - zoom in (shortcut : ctrl + =)
-    * minus - zoom out (shortcut : ctrl + -)
-    * save - save your artwork (shortcut : ctrl + s)
-    * pick - color picker tool (shortcut : i)
-    * tab - enlarge/shrink workspace (shortcut : tab)
-    * select - selection tool (shortcut : v)
+    * **plus** - zoom in (shortcut : ctrl + =)
+    * **minus** - zoom out (shortcut : ctrl + -)
+    * **save** - save your artwork (shortcut : ctrl + s)
+    * **pick** - color picker tool (shortcut : i)
+    * **tab** - enlarge/shrink workspace (shortcut : tab)
+    * **select** - selection tool (shortcut : v)
     * *add your methods*
 
 ### notes
