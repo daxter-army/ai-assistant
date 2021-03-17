@@ -5,7 +5,7 @@
 * it comes with an interactive and responsive GUI which is at address **/assist**
 * it only listens to the commands, it is intended to, rest other commands are filtered out with visual feedbacks
 * if it detects silence, ie if your are not speaking anything after launching it, it will stop recognising automatically after few seconds
-* it listens to single commands as well as burst of commands (containing single trigger). Eg. will *zoom in *1x* for **plus** & will *zoom in 3x* for **plus plus plus**
+* it listens to single commands as well as burst of commands (containing single trigger). Eg. will **zoom in 1x** for **plus** & will **zoom in 3x** for **plus plus plus**
 * to stop it, you can say ```terminate```
 
 ## screenshots
