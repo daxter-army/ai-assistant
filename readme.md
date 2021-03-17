@@ -28,7 +28,7 @@
     * **pick** - color picker tool *(shortcut : i)*
     * **tab** - enlarge/shrink workspace *(shortcut : tab)*
     * **select** - selection tool *(shortcut : v)*
-    * *add your methods*
+    * **add your methods**
 
 ### notes
 * while this piece of code is specially designed for illustrator, you can change the keystrokes and implement it in your favourite application
