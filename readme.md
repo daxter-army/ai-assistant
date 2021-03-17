@@ -22,12 +22,12 @@
 ## run
 * **python server.py** and go to **localhost:5000/assist**
 * click on the mouse button and speak some of the following pre-implemented actions (with adobe illustrator in focus):
-    * **plus** - zoom in (shortcut : ctrl + =)
-    * **minus** - zoom out (shortcut : ctrl + -)
-    * **save** - save your artwork (shortcut : ctrl + s)
-    * **pick** - color picker tool (shortcut : i)
-    * **tab** - enlarge/shrink workspace (shortcut : tab)
-    * **select** - selection tool (shortcut : v)
+    * **plus** - zoom in *(shortcut : ctrl + =)*
+    * **minus** - zoom out *(shortcut : ctrl + -)*
+    * **save** - save your artwork *(shortcut : ctrl + s)*
+    * **pick** - color picker tool *(shortcut : i)*
+    * **tab** - enlarge/shrink workspace *(shortcut : tab)*
+    * **select** - selection tool *(shortcut : v)*
     * *add your methods*
 
 ### notes
