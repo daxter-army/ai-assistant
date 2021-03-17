@@ -9,9 +9,11 @@
 * to stop it, you can say ```terminate```
 
 ## screenshots
+<div style="display: inline-block;">
 <img src="./screenshots/one.png" alt="screenshot one" title="ready to hear you" width="200px" />
 <img src="./screenshots/two.png" alt="screenshot two" title="listening to you" width="200px" />
 <img src="./screenshots/three.png" alt="screenshot three" title="when you go unnoticed" width="200px" />
+</div>
 
 ## requirements
 * **pip3 install pyautogui** - for emulating keystrokes
