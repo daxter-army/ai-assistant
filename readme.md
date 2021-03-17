@@ -8,6 +8,11 @@
 * it listens to single commands as well as burst of commands (containing single trigger). Eg. will *zoom in *1x* for **plus** & will *zoom in 3x* for **plus plus plus**
 * to stop it, you can say ```terminate```
 
+## screenshots
+<img src="./screenshots/one.png" alt="screenshot one" title="ready to hear you" width="500px" />
+<img src="./screenshots/two.png" alt="screenshot two" title="listening to you" width="500px" />
+<img src="./screenshots/three.png" alt="screenshot three" title="when you go unnoticed" width="500px" />
+
 ## requirements
 * **pip3 install pyautogui** - for emulating keystrokes
 * **pip3 install flask** - for web server, to receive and process the commands
