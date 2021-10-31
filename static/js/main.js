@@ -4,6 +4,7 @@
     // getting elements from the page
     // DECLARATIONS
     const microphoneBtn = document.querySelector('#btn-microphone');
+    const loader = document.querySelector('#loader');
     const audioElement = document.querySelector('#audio-option');
     const commandInputField = document.querySelector('#input-command');
     const querySent = document.querySelector('#query-sent');
@@ -87,9 +88,10 @@
         // audio
         audioElement.src = "../static/sound/micOn.mp3";
         audioElement.play();
+        loader.style.display = 'block'
         commandInputField.value = "";
         commandInputField.focus();
-
+        querySent.textContent = ""
     });
 
     
@@ -145,7 +147,7 @@
             // send to server
             sendToServer(message);
             commandInputField.value = "👍";
-            querySent.textContent = `Command : ${keyword}`;
+            querySent.textContent = `${keyword}`;
         }
         else {
             // audio
@@ -175,7 +177,8 @@
             commandInputField.value = randomEmojis[Math.floor(Math.random()*randomEmojis.length)];
         }
         commandInputField.blur();
-        querySent.textContent = "Speak...";
+        querySent.textContent = "Speak a command";
+        loader.style.display = 'none'
     })
 
 

@@ -5,21 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="{{ url_for('static', filename='js/all.js') }}"></script>
     <link rel="stylesheet" href="{{ url_for('static',filename='css/gui.css')}}">
-    <title>Illustrator Assist</title>
+    <title>Illustrator Assistant</title>
 </head>
 <body>
     <audio id="audio-option" src="../static/sound/micOn.mp3" type="audio/mp3" autoplay></audio>
     <div id="wrapper">
         <div id="btn-div">
             <button id="btn-microphone"><i class="fas fa-microphone fa-4x"></i></button>
-            <br>
-            <img src="{{ url_for('static', filename='assets/m1.png') }}" width="200px"/>
+            <!-- <br> -->
+            <!-- <img src="{{ url_for('static', filename='assets/m1.png') }}" width="200px"/> -->
+        </div>
+        <div id="loader">
         </div>
         <div>
-            <textarea type="text" id="input-command" rows="2"></textarea>
-        </div>
-        <div>
-            <p id="query-sent">Speak...</p>
+            <textarea type="text" id="input-command" rows="2" readonly></textarea>
+            <p id="query-sent">Speak a command</p>
         </div>
     </div>
     <script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}" defer></script>
