@@ -67,7 +67,7 @@ html, body {
 }
 
 #loader {
-    /* display: none; */
+    display: none;
     width: 200px;
     height: 10px;
     background: linear-gradient(-10deg, tomato, #ee7752, #9b59b6, #ee7752, tomato);
