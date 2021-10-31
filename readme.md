@@ -1,4 +1,4 @@
-# Pyllustrator
+# Pyllustrator - Adobe Illustrator Assistant
 * So, you are desingning a stunnning and magnificient artwork in Illustrator, but tired of moving your hand from the mouse to press keys, to activate specific functions like zoom in, zoom out, pen, save and many more of them..., then better call Python (& ofcouse JavaScript), unleashing the power of voice recognition & control your Illustrator by, your voice...
 
 ### Features
@@ -9,7 +9,7 @@
 * To stop it, you can say ```terminate```.
 
 ### Screenshots
-<div style="text-align: center;">
+<div style="margin: auto;">
 <img src="./screenshots/one.png" alt="screenshot one" title="ready to hear you" width="250px" />
 <img src="./screenshots/three.png" alt="screenshot two" title="listening to you" width="250px" /><br/>
 <img src="./screenshots/two.png" alt="screenshot three" title="when you go unnoticed" width="250px" />
