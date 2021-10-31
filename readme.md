@@ -9,10 +9,10 @@
 * To stop it, you can say ```terminate```.
 
 ### Screenshots
-<div style="display: inline-block;">
+<div style="text-align: center;">
 <img src="./screenshots/one.png" alt="screenshot one" title="ready to hear you" width="250px" />
-<img src="./screenshots/two.png" alt="screenshot two" title="listening to you" width="250px" />
-<img src="./screenshots/three.png" alt="screenshot three" title="when you go unnoticed" width="250px" />
+<img src="./screenshots/three.png" alt="screenshot two" title="listening to you" width="250px" /><br/>
+<img src="./screenshots/two.png" alt="screenshot three" title="when you go unnoticed" width="250px" />
 <img src="./screenshots/four.png" alt="screenshot four" title="when you go unnoticed" width="250px" />
 </div>
 
